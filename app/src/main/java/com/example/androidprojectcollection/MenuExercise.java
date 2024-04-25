@@ -43,6 +43,14 @@ public class MenuExercise extends AppCompatActivity {
         } else if(item.getItemId() == R.id.mItemReset) {
             Toast.makeText(this, "Reset Object Item is clicked", Toast.LENGTH_SHORT).show();
             //RESET
+            ConstraintLayout.LayoutParams layoutParams = (ConstraintLayout.LayoutParams) btnChanger.getLayoutParams();
+
+            layoutParams.width = 500;
+            layoutParams.height = 500;
+            btnChanger.setBackgroundResource(R.color.purple_500);
+            btnChanger.setText("");
+            btnChanger.setLayoutParams(layoutParams);
+            btnChanger.setVisibility(View.VISIBLE);
         } else if (item.getItemId() == R.id.mItemChangeColor) {
             Random random = new Random();
             int color = android.graphics.Color.argb(255, random.nextInt(256), random.nextInt(256), random.nextInt(256));
