@@ -55,7 +55,6 @@ public class MenuExercise extends AppCompatActivity {
             Random random = new Random();
             int color = android.graphics.Color.argb(255, random.nextInt(256), random.nextInt(256), random.nextInt(256));
             btnChanger.setBackgroundColor(color);
-            btnChanger.setBackgroundResource(R.drawable.button_pressed);
         } else if(item.getItemId() == R.id.mItemChangeText) {
             String newText = textChanger();
             btnChanger.setText(newText);
