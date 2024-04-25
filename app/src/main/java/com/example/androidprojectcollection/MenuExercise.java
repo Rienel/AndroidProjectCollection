@@ -60,6 +60,7 @@ public class MenuExercise extends AppCompatActivity {
             btnChanger.setText(newText);
         } else if(item.getItemId() == R.id.mItemChangeShape) {
             btnChanger.setBackgroundResource(R.drawable.round_button);
+            btnChanger.getBackground();
         } else if(item.getItemId() == R.id.mItemChangeSize) {
             ConstraintLayout.LayoutParams layoutParams = (ConstraintLayout.LayoutParams) btnChanger.getLayoutParams();
 
