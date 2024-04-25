@@ -30,7 +30,7 @@ public class Match3 extends AppCompatActivity {
 //                String reslDname = "Id of buttons" + row + col;
 //                button name[row][col] = findviewbyid(this resource(.getidentifier(reslDname, "id", this.getpackagename);
 
-        restartButton = findViewById(R.id.btnRestart);
+        restartButton = findViewById(R.id.btnSumbit);
         restartButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -19,28 +19,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnPassingIntentsExercise2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="116dp"
-        android:text="@string/PassingIntents2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
         android:id="@+id/btnPassingIntentsExercise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginTop="28dp"
         android:text="@string/PassingIntents"
-        app:layout_constraintBottom_toTopOf="@+id/btnPassingIntentsExercise2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMatch3"
-        app:layout_constraintVertical_bias="0.937" />
+        app:layout_constraintTop_toBottomOf="@+id/btnMatch3" />
 
     <Button
         android:id="@+id/btnCalculator"
@@ -79,5 +65,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnLayoutExercise"
         app:layout_constraintVertical_bias="0.504" />
+
+    <Button
+        android:id="@+id/btnMenus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="MenuExercise"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPassingIntentsExercise"
+        app:layout_constraintVertical_bias="0.055" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -80,13 +80,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn6 = (Button) findViewById(R.id.btnPassingIntentsExercise2);
+        btn6 = (Button) findViewById(R.id.btnMenus);
         btn6.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(
-                        MainActivity.this, PassingIntentsExercise2.class
+                        MainActivity.this, MenuExercise.class
                 );
                 startActivity(intent);
             }
