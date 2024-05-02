@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
     Button btn5;
     Button btn6;
 
+    Button btn7;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -87,6 +89,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(
                         MainActivity.this, MenuExercise.class
+                );
+                startActivity(intent);
+            }
+        });
+
+        btn7 = (Button) findViewById(R.id.btnMaps);
+        btn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(
+                        MainActivity.this, Maps.class
                 );
                 startActivity(intent);
             }
